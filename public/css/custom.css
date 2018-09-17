@@ -1,0 +1,112 @@
+.navbar{
+  background-color:#e62a76;
+  font-weight: 600;
+  background: #ff0090; /* Old browsers */
+  background: -moz-linear-gradient(left, #ff0090 0%, #ff0066 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ff0090 0%,#ff0066 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ff0090 0%,#ff0066 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0090', endColorstr='#ff0066',GradientType=1 ); /* IE6-9 */
+  font-size:14pt;
+}
+
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  font-size:20pt;
+  margin-right:40px;
+}
+
+.nav-link{
+  transition:0.25s;
+  text-align: center;
+  width:100px;
+  color:white !important;
+  border-radius: 10px;
+  outline:none;
+}
+
+.nav-link:hover {
+  transition:0.25s;
+  background-color:white;
+  color:red !important;
+ transform:translateY(5px);
+}
+
+.container{
+  min-height: 600px;
+}
+
+.page-footer{
+  color:white !important;
+  background: #ff0090; /* Old browsers */
+  background: -moz-linear-gradient(left, #ff0090 0%, #ff0066 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ff0090 0%,#ff0066 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ff0090 0%,#ff0066 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0090', endColorstr='#ff0066',GradientType=1 ); /* IE6-9 */
+}
+
+.networks{
+  list-style: none;
+}
+
+.net-item{
+  transition: 0.25s;
+  text-align: center;
+  width:60px;
+  height: 60px;
+
+  font-size:30pt;
+  float:left;
+  margin-right:20px;
+  display:block;
+  color:white;
+}
+.net-item:hover{
+  transition: 0.3s;
+  -webkit-box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
+  box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
+}
+
+
+
+.networks a{
+color: inherit;
+}
+
+.page-footer a{
+  color:inherit;
+}
+
+.cr-bt{
+  width: 150px;
+  margin-bottom:20px;
+}
+
+.index-card{
+  margin:auto;
+  width:600px;
+}
+
+.birth{
+  width:30%;
+  float:left;
+}
+
+.birth:nth-child(1){
+  margin-right:16px;
+}
+
+.birth:nth-child(2){
+  margin-right:15px;
+}
+
+.profile-button a{
+  width:200px;
+}
+
+.profile-img{
+  border-radius:50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
