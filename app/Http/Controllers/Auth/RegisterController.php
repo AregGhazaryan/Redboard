@@ -70,7 +70,7 @@ class RegisterController extends Controller
             'sex' => $data['sex'],
             'birthday' => $data['dob'] . '.' . $data['mob'] . '.' . $data['yob'],
             'country' => $data['country'],
-            'profile_img' => 'storage/profile_images/default.png',
+            'profile_img' => 'default.png',
         ]);
     }
 }
