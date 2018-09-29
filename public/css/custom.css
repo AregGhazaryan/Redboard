@@ -110,3 +110,7 @@ color: inherit;
   height: 300px;
   object-fit: cover;
 }
+
+table td{
+  vertical-align: middle  !important;
+}

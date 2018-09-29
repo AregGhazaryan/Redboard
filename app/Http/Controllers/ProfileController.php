@@ -20,8 +20,8 @@ public function profile($id){
 }
 
 public function edit($id){
-  $user = User::find($id)->first();
-  if(auth()->user()->id !== $user->id){
+  $user = User::find($id);
+  if(Auth::user()->id !== $user->id){
   return redirect('/posts')->with('error','Unauthorized Access');
 }else{
   return view('pages.edit')->with('user',$user);
@@ -66,7 +66,7 @@ if (!$birthday) {
 
 if ($request->hasFile('profile_image')) {
 
-  if ($user->profile_img == 'storage/profile_images/default.png') {
+  if ($user->profile_img == 'default.png') {
       $user->profile_img= $fileNameToStore;
   }else{
     Storage::delete('public/profile_images/'.$user->profile_img);

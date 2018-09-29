@@ -24,6 +24,7 @@
   <td class="">Country:</td>
   <td class="col">@if(!$info->country) Unspecified @endif{{$info->country}}</td>
 </tr>
+
         </table>
         @if(Auth::user()->id == $info->id)
           <a href="/profile/{{$info->id}}/edit" class="btn btn-primary">Edit</a>
