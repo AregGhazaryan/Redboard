@@ -24,7 +24,7 @@
 
     <div class="card-footer text-muted">
       @if ($post->created_at)
-  <small>Created At{{$post->created_at}} By @if($post->user)<a href="/profile/{{$post->user->id}}"> @endif {{$post->author}}</a> </small>
+  <small>Created At {{$post->created_at}} By @if($post->user)<a href="/profile/{{$post->user->id}}"> @endif {{$post->author}}</a> </small>
       @endif
 
  </div>
